@@ -1,0 +1,21 @@
+2025-12-06 18:18:08 | [INFO] | 📁 Log file: experiments/logs/eval_retrieval_20251206_181808.log
+2025-12-06 18:18:08 | [INFO] | 🕐 Started: 2025-12-06 18:18:08
+2025-12-06 18:18:08 | [INFO] | ======================================================================
+2025-12-06 18:18:08 | [INFO] | 📊 Evaluating writer retrieval with configuration:
+2025-12-06 18:18:08 | [INFO] | ======================================================================
+2025-12-06 18:18:08 | [INFO] |    csv                 : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR/experiments/cvl_pages_v2/cvl_test.csv
+2025-12-06 18:18:08 | [INFO] |    root_dir            : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR
+2025-12-06 18:18:08 | [INFO] |    checkpoint          : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR/experiments/cvl_pages_v2/checkpoints/encoder_epoch_1_loss_0.0000.pt
+2025-12-06 18:18:08 | [INFO] |    agg_type            : gem
+2025-12-06 18:18:08 | [INFO] |    vlad_centers        : None
+2025-12-06 18:18:08 | [INFO] |    num_clusters        : 100
+2025-12-06 18:18:08 | [INFO] |    batch_size          : 1
+2025-12-06 18:18:08 | [INFO] |    num_workers         : 0
+2025-12-06 18:18:08 | [INFO] |    device              : cuda
+2025-12-06 18:18:08 | [INFO] |    mode                : auto
+2025-12-06 18:18:08 | [INFO] |    log_dir             : None
+2025-12-06 18:18:08 | [INFO] |    debug               : False
+2025-12-06 18:18:08 | [INFO] |    qe                  : False
+2025-12-06 18:18:08 | [INFO] |    rerank              : none
+2025-12-06 18:18:08 | [INFO] | 💻 Device: cuda
+2025-12-06 18:18:08 | [INFO] | ======================================================================

@@ -1,0 +1,36 @@
+2025-12-06 18:29:58 | [INFO] | 📁 Log file: experiments/logs/eval_retrieval_20251206_182958.log
+2025-12-06 18:29:58 | [INFO] | 🕐 Started: 2025-12-06 18:29:58
+2025-12-06 18:29:58 | [INFO] | ======================================================================
+2025-12-06 18:29:58 | [INFO] | 📊 Evaluating writer retrieval with configuration:
+2025-12-06 18:29:58 | [INFO] | ======================================================================
+2025-12-06 18:29:58 | [INFO] |    csv                 : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR/experiments/cvl_pages_v2/cvl_test.csv
+2025-12-06 18:29:58 | [INFO] |    root_dir            : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR
+2025-12-06 18:29:58 | [INFO] |    checkpoint          : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR/experiments/cvl_pages_v2/checkpoints/encoder_epoch_1_loss_0.0000.pt
+2025-12-06 18:29:58 | [INFO] |    agg_type            : gem
+2025-12-06 18:29:58 | [INFO] |    vlad_centers        : None
+2025-12-06 18:29:58 | [INFO] |    num_clusters        : 100
+2025-12-06 18:29:58 | [INFO] |    batch_size          : 1
+2025-12-06 18:29:58 | [INFO] |    num_workers         : 0
+2025-12-06 18:29:58 | [INFO] |    device              : cuda
+2025-12-06 18:29:58 | [INFO] |    mode                : auto
+2025-12-06 18:29:58 | [INFO] |    log_dir             : None
+2025-12-06 18:29:58 | [INFO] |    debug               : False
+2025-12-06 18:29:58 | [INFO] |    qe                  : False
+2025-12-06 18:29:58 | [INFO] |    rerank              : sgr_plus
+2025-12-06 18:29:58 | [INFO] | 💻 Device: cuda
+2025-12-06 18:29:58 | [INFO] | ======================================================================
+2025-12-06 18:29:58 | [INFO] |    Auto-detected backbone: resnet18 (from checkpoint structure)
+2025-12-06 18:32:37 | [INFO] | 
+2025-12-06 18:32:37 | [INFO] | === Baseline retrieval ===
+2025-12-06 18:32:37 | [INFO] |   #queries: 1415
+2025-12-06 18:32:37 | [INFO] |   mAP:   0.1481
+2025-12-06 18:32:37 | [INFO] |   Top-1: 0.1936
+2025-12-06 18:32:37 | [INFO] |   Top-5: 0.4099
+2025-12-06 18:32:37 | [INFO] |   Top-10:0.5251
+2025-12-06 18:32:37 | [INFO] | 🔄 Applying SGR+...
+2025-12-06 18:32:38 | [INFO] | 
+2025-12-06 18:32:38 | [INFO] | === After QE / reranking ===
+2025-12-06 18:32:38 | [INFO] |   mAP:   0.1488
+2025-12-06 18:32:38 | [INFO] |   Top-1: 0.1943
+2025-12-06 18:32:38 | [INFO] |   Top-5: 0.3816
+2025-12-06 18:32:38 | [INFO] |   Top-10:0.4926

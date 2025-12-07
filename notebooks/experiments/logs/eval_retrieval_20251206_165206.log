@@ -1,0 +1,28 @@
+2025-12-06 16:52:06 | [INFO] | 📁 Log file: experiments/logs/eval_retrieval_20251206_165206.log
+2025-12-06 16:52:06 | [INFO] | 🕐 Started: 2025-12-06 16:52:06
+2025-12-06 16:52:06 | [INFO] | ======================================================================
+2025-12-06 16:52:06 | [INFO] | 📊 Evaluating writer retrieval with configuration:
+2025-12-06 16:52:06 | [INFO] | ======================================================================
+2025-12-06 16:52:06 | [INFO] |    csv                 : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR/experiments/cvl_lines_v2/cvl_test.csv
+2025-12-06 16:52:06 | [INFO] |    root_dir            : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR
+2025-12-06 16:52:06 | [INFO] |    checkpoint          : /home/spark/NUST/Semester 5/Deep Learning/Project/CARA-WR/notebooks/checkpoints/best_epoch_30_loss_0.1041.pt
+2025-12-06 16:52:06 | [INFO] |    agg_type            : gem
+2025-12-06 16:52:06 | [INFO] |    vlad_centers        : None
+2025-12-06 16:52:06 | [INFO] |    num_clusters        : 100
+2025-12-06 16:52:06 | [INFO] |    batch_size          : 1
+2025-12-06 16:52:06 | [INFO] |    num_workers         : 0
+2025-12-06 16:52:06 | [INFO] |    device              : cuda
+2025-12-06 16:52:06 | [INFO] |    mode                : auto
+2025-12-06 16:52:06 | [INFO] |    log_dir             : None
+2025-12-06 16:52:06 | [INFO] |    debug               : True
+2025-12-06 16:52:06 | [INFO] |    qe                  : False
+2025-12-06 16:52:06 | [INFO] |    rerank              : none
+2025-12-06 16:52:06 | [INFO] | 💻 Device: cuda
+2025-12-06 16:52:06 | [INFO] | ======================================================================
+2025-12-06 16:54:44 | [INFO] | 
+2025-12-06 16:54:44 | [INFO] | === Baseline retrieval ===
+2025-12-06 16:54:44 | [INFO] |   #queries: 11849
+2025-12-06 16:54:44 | [INFO] |   mAP:   0.0149
+2025-12-06 16:54:44 | [INFO] |   Top-1: 0.0426
+2025-12-06 16:54:44 | [INFO] |   Top-5: 0.1387
+2025-12-06 16:54:44 | [INFO] |   Top-10:0.2067
